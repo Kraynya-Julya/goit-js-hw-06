@@ -28,7 +28,7 @@ const inputRef = document.querySelector('#validation-input');
 
 function unFocusHandler(event) { 
    
-    if (event.currentTarget.value.length === Number (inputRef.getAttribute('data-length'))) {        
+    if (event.currentTarget.value.length === Number(inputRef.getAttribute('data-length'))) {        
     
         event.currentTarget.classList.add('valid'); 
         event.currentTarget.classList.remove('invalid');   
